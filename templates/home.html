@@ -2,9 +2,60 @@
 <html>
   <head>
     <title>Jovian Careers</title>
+    <style>
+      .banner {
+        height: 240px;
+        width:100%;
+        object-fit:cover;
+        border-radius: 4px;
+      }
+
+      h1 {
+        font-family: Inter;
+        font-size: 40px;
+        text-align: center;
+        color: #333;
+      }
+
+      h2 {
+        font-family: Inter;
+        font-size: 32px;
+        text-align: center;
+        color: #333;
+      }
+
+      #container {
+        max-width: 720px;
+        margin: 0 auto;
+      }
+
+      body {
+        font-family: Roboto, sans-serif;
+        color: #555;
+      }
+
+      .contact {
+        margin: 16px auto;
+      }
+
+      #contact-button {
+        font-size: 16px;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
   </head>
   <body>
-    <h1>Jovian Careers</h1>
-    <p>Come work at Jovian!</p>
+    <div id="container">
+      <h1>Jovian Careers</h1>
+      <img class="banner" src="/static/banner.jpeg">
+      <h2>About Jovian</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h2>Open Positions</h2>
+      <p>TODO - Add open positions here</p>
+      <div class="contact">
+        <button id="contact-button">Contact Us</button>
+      </div>
+    </div>
   </body>
 </html>
