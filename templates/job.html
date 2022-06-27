@@ -1,0 +1,10 @@
+<div class="job">
+  <div>
+  <h4>{{job['title']}}</h4>
+  <div><b>Location</b>: {{job['location']}}</div>
+  {%if 'salary' in job %}
+    <div><b>Salary</b>: {{job.get('salary', '')}}</div>
+  {% endif %}
+  </div>
+  <button type="button" class="btn btn-outline-primary">Apply</button>
+</div>
